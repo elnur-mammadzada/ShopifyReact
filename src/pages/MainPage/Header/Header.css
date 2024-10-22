@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* Arka plan rengi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    margin-bottom: 50px;
+}
+
+.image .logo {
+    height: 90px; /* Logo yüksekliği */
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.searchbar {
+    margin-right: 20px; /* Arama çubuğu ile ikon arasında boşluk */
+    width: 50%;
+}
+.mui-textfield {
+    width: 300px; /* Genişlik */
+    border-radius: 4px; /* Kenar yuvarlama */
+    padding: 10px; /* İç boşluk */
+}
+
+.mui-textfield input {
+    border: 1px solid #ccc; /* Kenar rengi */
+    outline: none; /* Kenar seçimini kaldır */
+}
+
+.mui-textfield input:focus {
+    border-color: #007bff; /* Focus halinde kenar rengi */
+    transition: border-color 0.3s; /* Geçiş efekti */
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* İkonun üzerine gelince işaretçi değişsin */
+}
+
+.icon:hover {
+    color: #007bff; /* Üzerine gelince renk değişimi */
+    transition: color 0.3s; /* Renk geçiş efekti */
+}
+
+.icon svg{
+    font-size: 40px;
+}
